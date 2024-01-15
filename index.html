@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="borda">
+    <p class="tela" id="tela"></p>
+    <div class="botoes">
+        
+        <button class="botaolimpar" id="C" onclick="limpar()">C</button>
+        <button class="botaolimpar" id="apagar" onclick="apagar()">&#x2B05;</button>
+        <br>
+
+        <button class="botaonum" onclick="acrescentar('7')">7</button>
+        <button class="botaonum" onclick="acrescentar('8')">8</button>
+        <button class="botaonum" onclick="acrescentar('9')">9</button> 
+        <button class=botaoper id="divisao" onclick="dividir()">÷</button>
+        <br>
+
+        <button class="botaonum" onclick="acrescentar('4')">4</button> 
+        <button class="botaonum" onclick="acrescentar('5')">5</button>
+        <button class="botaonum" onclick="acrescentar('6')">6</button>
+        <button class=botaoper id="vezes" onclick="multiplicar()">x</button>
+        <br>
+
+        <button class="botaonum" onclick="acrescentar('1')">1</button>
+        <button class="botaonum" onclick="acrescentar('2')">2</button>
+        <button class="botaonum" onclick="acrescentar('3')">3</button>
+        <button class=botaoper id="mais" onclick="somar()">+</button>
+        <br>
+
+        <button class="botaonum" onclick="acrescentar('0')">0</button>
+        <button class="botaoper" id="ponto" onclick="acrescentar_ponto()">.</button>
+        <button class=botaoper id="menos" onclick="subtrair()">-</button>
+        <button class="botaoigual" id="igual" onclick="igual()">=</button>
+        <br>
+    
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

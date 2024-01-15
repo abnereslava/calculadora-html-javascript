@@ -1,0 +1,81 @@
+.tela {
+    border-style: solid;
+    border-radius: 10px;
+    margin: 15px;
+    background: linear-gradient(to top, rgb(77, 160, 77), rgb(86, 219, 86), rgb(154, 255, 154));
+    text-align: right;
+    padding: 3%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 1px 1px rgb(93, 93, 93);
+}
+
+.borda {
+    border-radius: 15px;
+    border-style: solid;
+    background: linear-gradient(to top, rgb(141, 141, 141), rgb(163, 163, 163), rgb(212, 212, 212));
+    height: 350px;
+    width: 300px;
+    box-shadow: 5px 5px rgb(93, 93, 93);
+}
+
+.botoes {
+    display: block;
+    padding-left: 5%;
+}
+
+button {
+    box-shadow: 1px 1px rgb(93, 93, 93);
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 15px 5px 0 0;
+    border: solid;
+    border-color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.botaoper {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.botaoper:active {
+    background-color: rgb(192, 192, 192);
+    color:rgb(32, 32, 32);
+}
+
+.botaolimpar {
+    background-color: rgb(255, 101, 101);
+    color:white;
+}
+
+.botaolimpar:active {
+    background-color: rgb(211, 94, 94);
+    color:rgb(192, 192, 192);
+}
+
+.botaonum {
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+.botaonum:active {
+    background-color: rgb(37, 37, 37);
+    color:rgb(192, 192, 192);
+}
+
+.botaoigual {
+    background-color: rgb(255, 255, 115);
+    color: black;
+}
+
+.botaoigual:active {
+    background-color: rgb(192, 192, 64);
+    color:rgb(32, 32, 32);
+}
